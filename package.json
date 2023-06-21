@@ -1,5 +1,4 @@
 {
-  "homepage": "https://graham2000.github.io/Notes/",
   "name": "project",
   "dependencies": {
     "nanoid": "3.1.28",
@@ -17,9 +16,8 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   }
 }
